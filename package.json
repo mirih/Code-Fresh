@@ -8,7 +8,7 @@
     "url": "https://github.com/mirih/Code-Fresh.git"
   },
   "scripts": {
-  	"start": "app.js",
+  	"start": "node ./app.js",
     "test": "./node_modules/.bin/_mocha -R spec"
   },
   "author": {
