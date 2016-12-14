@@ -1,0 +1,32 @@
+{
+  "name": "code_fresh",
+  "version": "1.0.0",
+  "description": "An api server to search files on github",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirih/Code-Fresh.git"
+  },
+  "scripts": {
+  	"start": "app.js",
+    "test": "./node_modules/.bin/_mocha -R spec"
+  },
+  "author": {
+    "name": "Miri Assayag",
+    "email": "hararimiri@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Miri Assayag"
+    }
+  ],
+  "dependencies": {
+    "express": "4.13.4" ,
+    "request" : "2.79.0",
+    "util" : "0.10.3",
+    "path" : "0.12.7"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5"
+  }
+}
